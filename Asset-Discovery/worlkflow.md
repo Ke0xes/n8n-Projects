@@ -1,3 +1,5 @@
+mermaid
+```
 flowchart TD
     A[Cron Trigger] --> B[Init Sources Function]
     B --> C1[Execute Command - Nmap Scan]
@@ -7,3 +9,4 @@ flowchart TD
     D --> E[AI Node - Enrichment & Classification]
     E --> F[Spreadsheet File - Save to Excel]
     F --> G[Optional Notification - Email/Slack]
+```
