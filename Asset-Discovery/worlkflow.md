@@ -1,5 +1,5 @@
-mermaid
-```
+
+```mermaid
 flowchart TD
     A[Cron Trigger] --> B[Init Sources Function]
     B --> C1[Execute Command - Nmap Scan]
